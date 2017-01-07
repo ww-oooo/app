@@ -1,5 +1,5 @@
 body{
-	background:#282f3c;
+	
 	-ms-overflow-style:none;
 	overflow:-moz-scrollbars-none;
 	}
@@ -25,7 +25,7 @@ li{
 #box{
 	width:750px;
 	margin:0 auto;
-	background:#282f3c;
+	background:#808080;
 	
 }
 #nav{
@@ -67,8 +67,9 @@ li{
 #box .content{
 	-ms-overflow-style:none;
 	overflow:-moz-scrollbars-none;
-	height:853px;
+	height:856px;
 	overflow-y: hidden;
+	background:#282f3c;
 }
 .content .theme{
 	height:853px;
@@ -932,8 +933,9 @@ li{
 #box .main{
 	width:100%;
 	padding-top:160px;
-	padding-bottom:165px;
+	padding-bottom:160px;
 	color: #fff;
+	background:#282f3c;
 	
 }
 #box .main li:nth-child(1){
@@ -947,12 +949,19 @@ li{
 }
 .choose{
 	width: 750px;
-	height: 305px;
+	height: 315px;
 	background: #1f2530;
+	
     border-top:2px solid #191e28;
 	transition: all 0.8s ease;
     transform:translateY(540px);
     display: none;
+}
+.choose-p{
+	padding-top: 30px;
+	width: 750px;
+	height: 345px;
+	background:#282f3c;
 }
 .ways{
 	width: 100%;
@@ -1008,7 +1017,7 @@ li{
 }
 .choose-two{
 	width: 750px;
-	height: 431px;
+	height: 433px;
 	background: #1f2530;
     border-top:2px solid #191e28;
 	transition: all 0.8s ease;

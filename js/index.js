@@ -19,10 +19,10 @@ $(function(){
 		if(flag){
 			if($(this).hasClass('protect')){
 	        	choose_two.css("display", "block");
-	            choose_two.css('transform','translateY(-80px)');
+	            choose_two.css('transform','translateY(-346px)');
 	        }else{
 	        	choose.css("display", "block");
-	            choose.css('transform','translateY(10px)');
+	            choose.css('transform','translateY(30px)');
 	        }
 			$('.common').css("display", "none");
 			nav.css("display", "block");
