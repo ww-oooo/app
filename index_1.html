@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=320px"/>
+    <title>所需设备</title>
+    <link rel="stylesheet" href="carrousel.css"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/carrousel.js"></script>
+</head>
+<body>
+    <div class="banner">
+        <section id="dg-container" class="dg-container">
+            <div class="dg-wrapper">
+                <a href="#" link="">
+                    <img src="img/m-c.png">
+                </a>
+                <a href="#" link="">
+                    <img src="img/m-c.png">
+                </a>
+                <a href="#" link="">
+                    <img src="img/m-c.png">
+                </a>
+                <a href="#" link="">
+                    <img src="img/m-c.png">
+                </a>
+                <a href="#" link="">
+                   <img src="img/m-c.png">
+                </a>
+            </div>
+            <div class="main">
+			<div class="title">
+				智慧管家服务－真正的智能无需动手
+			</div>
+			<div class="con">
+				<p>
+					早上7点起床，自动开启你的小音箱，有音乐起床更容易。如果家里已经有遥控灯，更能配合自动开启。出门后Ohh会关闭你的空气净化器，指挥扫地机器人开始清洁房间。回家前1小时提前打开空气净化器，节能的同时又可以让你一进门就呼吸干净的空气。
+				</p>
+				<br />
+				<p>
+					早上7点起床，自动开启你的小音箱，有音乐起床更容易。如果家里已经有遥控灯，更能配合自动开启。出门后Ohh会关闭你的空气净化器，指挥扫地机器人开始清洁房间。
+
+				</p>
+				<br />
+				<p>
+					回家前1小时提前打开空气净化器，节能的同时又可以让你一进门就呼吸干净的空气。
+				</p>
+			</div>
+		</div>
+        </section>
+    </div>
+    
+    <script >
+        $(function () {
+            $('#dg-container').carrousel({
+                current: 0,
+                autoplay: true,
+                interval: 3000
+            });
+        });
+    </script>
+</body>
+</html>
