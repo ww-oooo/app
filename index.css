@@ -1,5 +1,6 @@
 body{
-	overflow:hidden;
+	background:#282f3c;
+	overflow: hidden;
 	-ms-overflow-style:none;
 	overflow:-moz-scrollbars-none;
 	}
@@ -23,13 +24,13 @@ li{
 }
 
 #box{
-	width:751px;
+	width:750px;
 	margin:0 auto;
-	background:#808080;
-	
+	background:#282f3c;
+	padding-top: 165px;
 }
 #nav{
-	width:751px;
+	width:750px;
 	height:88px;
 	
 	display: none;
@@ -67,13 +68,11 @@ li{
 #box .content{
 	-ms-overflow-style:none;
 	overflow:-moz-scrollbars-none;
-	height:853px;
+	height:732px;
 	overflow-y: hidden;
-	background: #282f3c;
 }
 .content .theme{
-	height:853px;
-	margin-top: 165px;
+	height:732px;
     position: relative;
 	
 }
@@ -935,7 +934,6 @@ li{
 	padding-top:160px;
 	padding-bottom:165px;
 	color: #fff;
-	background: #282f3c;
 	
 }
 #box .main li:nth-child(1){
