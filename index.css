@@ -23,13 +23,13 @@ li{
 }
 
 #box{
-	width:750px;
+	width:751px;
 	margin:0 auto;
 	background:#808080;
 	
 }
 #nav{
-	width:750px;
+	width:751px;
 	height:88px;
 	
 	display: none;
@@ -67,9 +67,9 @@ li{
 #box .content{
 	-ms-overflow-style:none;
 	overflow:-moz-scrollbars-none;
-	height:856px;
+	height:853px;
 	overflow-y: hidden;
-	background:#282f3c;
+	background: #282f3c;
 }
 .content .theme{
 	height:853px;
@@ -933,9 +933,9 @@ li{
 #box .main{
 	width:100%;
 	padding-top:160px;
-	padding-bottom:160px;
+	padding-bottom:165px;
 	color: #fff;
-	background:#282f3c;
+	background: #282f3c;
 	
 }
 #box .main li:nth-child(1){
@@ -951,17 +951,10 @@ li{
 	width: 750px;
 	height: 315px;
 	background: #1f2530;
-	
     border-top:2px solid #191e28;
 	transition: all 0.8s ease;
     transform:translateY(540px);
     display: none;
-}
-.choose-p{
-	padding-top: 30px;
-	width: 750px;
-	height: 345px;
-	background:#282f3c;
 }
 .ways{
 	width: 100%;
@@ -1017,7 +1010,7 @@ li{
 }
 .choose-two{
 	width: 750px;
-	height: 433px;
+	height: 431px;
 	background: #1f2530;
     border-top:2px solid #191e28;
 	transition: all 0.8s ease;
